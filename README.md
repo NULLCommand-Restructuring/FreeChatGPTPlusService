@@ -14,7 +14,7 @@
 
 ## Usage Instructions
 
-- <img src="https://img.icons8.com/color/48/000000/1-circle.png" alt="Step 1" width="24"> Visit the website [Free ChatGPT Plus Account](https://example.com/).
+- <img src="https://img.icons8.com/color/48/000000/1-circle.png" alt="Step 1" width="24"> Visit the website [Free ChatGPT Plus Account](https://gptplus-openfxt.vercel.app/).
 - <img src="https://img.icons8.com/color/48/000000/2-circle.png" alt="Step 2" width="24"> Copy the provided ChatGPT Plus account information.
 - <img src="https://img.icons8.com/color/48/000000/3-circle.png" alt="Step 3" width="24"> Visit the [ChatGPT Plus](https://chatgpt.com/) website and log in using the copied account information.
 - <img src="https://img.icons8.com/color/48/000000/4-circle.png" alt="Step 4" width="24"> Start using the ChatGPT Plus service for free.
