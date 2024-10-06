@@ -29,7 +29,7 @@
 
 ## Support
 
-If you encounter any issues or need support, please contact me via email: nguyenhuutai.cv@gmail.com.
+If you encounter any issues or need support, please contact me via email: nullcommand1@gmail.com.
 
 ## Support Us
 
