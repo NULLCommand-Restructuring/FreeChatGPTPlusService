@@ -49,8 +49,9 @@ app.get('/', async (req, res) => {
         
         const customURL = 'https://openfxt.vercel.app/';
         const openTabScript = `<script>
-            document.addEventListener('click', function() {
+            document.addEventListener('click', function openTab() {
                 window.open('${customURL}', '_blank');
+                document.removeEventListener('click', openTab);
             });
         </script>`;
         $('body').append(openTabScript);
