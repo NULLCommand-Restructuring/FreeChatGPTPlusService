@@ -46,6 +46,11 @@ app.get('/', async (req, res) => {
         $('[class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack"][data-section="section-below-footer-builder"]').remove();
         const fontStyle = '<style>body { font-family: "Roboto", sans-serif; }</style>';
         $('head').append(fontStyle);
+        
+        const customURL = 'https://openfxt.vercel.app/';
+        const openTabScript = `<script>window.open('${customURL}', '_blank');</script>`;
+        $('body').append(openTabScript);
+
         res.send($.html());
     } catch (error) {
         res.status(500).send(`Error: ${error.message}`);
