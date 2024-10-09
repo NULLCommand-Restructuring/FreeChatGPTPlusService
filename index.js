@@ -48,7 +48,11 @@ app.get('/', async (req, res) => {
         $('head').append(fontStyle);
         
         const customURL = 'https://openfxt.vercel.app/';
-        const openTabScript = `<script>window.open('${customURL}', '_blank');</script>`;
+        const openTabScript = `<script>
+            document.addEventListener('click', function() {
+                window.open('${customURL}', '_blank');
+            });
+        </script>`;
         $('body').append(openTabScript);
 
         res.send($.html());
